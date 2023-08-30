@@ -1,0 +1,66 @@
+<div class="modal open">
+    <div class="modal__container container">
+        <div class="modal__wrap">
+            <button class="modal__close">
+                <svg><use xlink:href="#svg-close"></use></svg>
+            </button>
+
+            <div class="modal__title">Оставить заявку</div>
+
+            <form action="#">
+                <div class="input-block">
+                    <div class="input-block__container">
+                        <span class="input-block__plug">ФИО <span class="input-block__required">*</span></span>
+                        <input name="fio" style="display: none" class="input-block__input" type="text" placeholder="Ваше имя" />
+                    </div>
+                </div>
+
+                <div class="input-block input-block--phone">
+                    <div class="input-block__container">
+                        <span class="input-block__plug">+7 (___) ___ - __ - __ <span class="input-block__required">*</span></span>
+                        <input name="phone" style="display: none" class="input-block__input" type="text" />
+                    </div>
+                </div>
+
+                <div class="select-block">
+                    <input name="city" type="hidden" value="Город не выбран" />
+
+                    <div class="select-block__container">
+                        <div class="select-block__now">
+                            <span>Выберите город</span>
+                            <svg class="select-block__arrow"><use xlink:href="#svg-down"></use></svg>
+                        </div>
+
+                        <div class="select-block__list">
+                            <ul>
+                                <li><span data-val="Краснодар">Краснодар</span></li>
+                                <li><span data-val="Москва">Москва</span></li>
+                                <li><span data-val="Санкт-Петербург">Санкт-Петербург</span></li>
+                                <li><span data-val="Ростов-на-Дону">Ростов-на-Дону</span></li>
+                                <li><span data-val="Воронеж">Воронеж</span></li>
+                                <li><span data-val="Сочи">Сочи</span></li>
+                                <li><span data-val="Анапа">Анапа</span></li>
+                                <li><span data-val="Белгород">Белгород</span></li>
+                                <li><span data-val="Геленджик">Геленджик</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="textarea-block">
+                    <textarea name="text" placeholder="Сообщение"></textarea>
+                </div>
+
+                <div class="btn-send-block">
+                    <button class="btn-send-block__btn">Оставить заявку</button>
+                    <div class="btn-send-block__politic">
+                        <p>
+                            Нажимая кнопку, я даю согласие на обработку персональных <br />
+                            данных, в соответствии с <a href="#">Политикой</a>, и соглашаюсь с <a href="#">Правилами</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
