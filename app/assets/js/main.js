@@ -22,12 +22,6 @@ $(function () {
             $(this).css('display', 'none');
             $(this).siblings('.input-block__plug').removeAttr('style');
         }
-        
-        if (parent.hasClass('input-block--phone')) {
-            $(this).val('');
-            $(this).unmask();
-            $(this).siblings('.input-block__plug').removeAttr('style');
-        }
     });
 
 
