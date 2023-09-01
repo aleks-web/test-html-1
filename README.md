@@ -9,4 +9,4 @@
 
 <h2>Фидбек от работодателя относительно тестового задания</h2>
 <img src="https://github.com/aleks-web/test-html-1/blob/master/hh.ru.jpg" alt="Переписка на hh.ru">
-<p>Переписка в <a href="https://hh.ru/resume/ac22fd2bff079f41860039ed1f7a78334f6e66" target="_blanck">hh.ru</a> в виде скриншота - hh.ru.jpg</p>
+<p>Переписка в <a href="https://hh.ru/resume/ac22fd2bff079f41860039ed1f7a78334f6e66" target="_blanck">hh.ru</a> в виде скриншота - hh.ru.jpg (в корне проекта)</p>
