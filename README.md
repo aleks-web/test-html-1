@@ -1,5 +1,7 @@
 <h1>Тестовое задание</h1>
 
+<img src="https://github.com/aleks-web/test-html-1/blob/master/hh.ru.jpg" alt="Переписка на hh.ru">
+
 ## Задача - сверстать модальное окно
 
 Файл Figma - figma.fig
